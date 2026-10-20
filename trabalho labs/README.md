@@ -68,14 +68,14 @@ Neste labirinto, DFS e Busca Gulosa visitaram menos casas, mas seus caminhos fic
 
 ## Como executar
 
-Requisito: Python 3 (sem bibliotecas externas).
+Requisito: Python  (sem bibliotecas externas).
 
 1. Baixe ou clone este repositório.
 2. Abra um terminal na pasta do projeto.
 3. Execute:
 
 ```bash
-python "labirinto(3).py"
+python labirinto.py"
 ```
 
 O programa mostrará os três labirintos com os caminhos marcados por `*` e, ao final, a comparação entre os algoritmos.
