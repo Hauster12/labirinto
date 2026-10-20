@@ -50,7 +50,7 @@ Prioriza as casas que parecem estar mais próximas da saída, sem considerar o c
 
 ## Resultados
 
-Resultados obtidos executando `labirinto(3).py`:
+Resultados obtidos executando `python labirinto.py`:
 
 | Algoritmo | Tamanho do caminho (casas) | Casas visitadas |
 |---|---:|---:|
