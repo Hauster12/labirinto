@@ -66,16 +66,6 @@ A BFS encontrou o menor caminho, com 19 casas, mas visitou 58 casas durante a bu
 
 Neste labirinto, DFS e Busca Gulosa visitaram menos casas, mas seus caminhos ficaram 4 casas maiores que o da BFS. Assim, visitar menos casas durante a busca não significa necessariamente encontrar o percurso mais curto.
 
-## Questões para apresentação oral
-
-1. Por que a BFS encontrou o menor caminho e a DFS não?
-
-A BFS explora primeiro todas as casas a um movimento do início, depois as casas a dois movimentos e assim por diante. Dessa forma, como todos os movimentos têm custo igual, ela encontra o menor percurso. Já a DFS segue um ramo até o fim antes de testar outros e pode encontrar a saída por um caminho mais longo.
-
-2. Por que uma parede pode enganar a Busca Gulosa?
-
-A Busca Gulosa escolhe a próxima casa pela menor distância de Manhattan até a saída. Uma casa pode parecer mais próxima do objetivo, mas estar diante de uma parede ou de um desvio. A heurística não considera os obstáculos à frente nem o comprimento total do percurso. Neste labirinto, isso contribui para que ela encontre um caminho de 23 casas, em vez das 19 encontradas pela BFS.
-
 ## Como executar
 
 Requisito: Python 3 (sem bibliotecas externas).
