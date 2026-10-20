@@ -84,7 +84,7 @@ O programa mostrará os três labirintos com os caminhos marcados por `*` e, ao 
 
 ```text
 .
-├── labirinto(3).py
+├── labirinto.py
 └── README.md
 ```
 
